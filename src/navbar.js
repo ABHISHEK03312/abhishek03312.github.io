@@ -3,6 +3,7 @@ import { BsPersonFill } from 'react-icons/bs';
 import { FaHome } from 'react-icons/fa';
 import { MdWork } from 'react-icons/md';
 import { AiFillProject } from 'react-icons/ai';
+import { BsMap ,BsTelephone} from 'react-icons/bs';
 
 const Navbar = () => {
     return (
@@ -11,10 +12,11 @@ const Navbar = () => {
                 <div className="links">
                     <div class="sti_container" >
                         <NavLink to="/" target="_self" rel="noreferrer" className={({ isActive }) => (isActive ? "linkactive" : "link")}>
-                            <button className="btn">
+                            {/* <button className="btn"> */}
                                 <span class="btn-text">Home</span>
                                 <span class="btn-icon"><FaHome style={{ height: 35, width: 35, verticalAlign: 'middle', color:'rgb(255, 255, 255)'}}/></span>
-                            </button>
+                                <BsMap style={{height: '12%', width: '10%', fill: 'rgb(255, 255, 255)','z-index':'1000'}}/>
+                            {/* </button> */}
                         </NavLink>
                     </div>
                     <div class="sti_container">
