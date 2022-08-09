@@ -1,0 +1,60 @@
+{
+  "name": "portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://abhishek03312.github.io/",
+  "dependencies": {
+    "@emailjs/browser": "^3.6.2",
+    "@ramonak/react-progress-bar": "^4.2.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "emailjs-com": "^3.2.0",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.0.4",
+    "react-devicon": "^0.1.9",
+    "react-devicons": "^2.14.0",
+    "react-dom": "^17.0.2",
+    "react-dropdown": "^1.9.2",
+    "react-icons": "^4.3.1",
+    "react-loading-icons": "^1.0.6",
+    "react-router-dom": "^6.0.2",
+    "react-scripts": "4.0.3",
+    "react-search-autocomplete": "^5.4.4",
+    "react-select": "^5.2.1",
+    "react-social-icons": "^5.6.1",
+    "scrapedin": "^1.0.21",
+    "styled-components": "^5.3.3",
+    "vertical-timeline-component-for-react": "^1.0.7",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}

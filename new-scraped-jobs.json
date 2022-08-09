@@ -1,0 +1,34 @@
+[
+    {
+        "job_id": 1,
+        "company_name": "Keppel Corporation Limited",
+        "job_title": "Group internal Audit, Analytics and Automation",
+        "date": "Singapore, Jan2022 - Jun2022",
+        "job_desc": "\u2022 Liaised with auditors to develop and manage big data pipelines using necessary ETL procedures to meet Audit use cases.\n                \u2022 Worked on multiple business use-cases and deployed the relevant processes for continuous assessment by the organization.\n                \u2022 Graph Analysis \u2013 Spearheaded the development of a Graph database and analyzed possible relationships between various bidders in tender bidding processes in China. Possible scaling to multiple other use case using similar techniques.\n                \u2022 Risk and Assurance - Developed a robust system to analyze the risk faced by the organization due to sanctions imposed. Proposed and implemented methods such as NER to extract all possible individuals and organizations sanctioned from text documents.\n                \u2022 Financial Analytics - Collaborated with auditors to flag out invoice exceptions, identify third party vendors as well as ensure control and assurance within the organization.\n                \u2022 Streamlined scripts to be handle more than 50k records with 100+ fields. Improved efficiency by reducing time taken to process by almost 1/4th of original time taken.\n                \u2022 Developed interactive and dynamic dashboards using PowerBI to share meaningful actionable insights.\n                \u2022 Platforms and tools \u2013 Databricks, Spark, Azure Delta Lake, Cosmos DB, Gremlin API, BERT, pdfplumber, Camelot.",
+        "image_path": "./images/Keppel-logo.png"
+    },
+    {
+        "job_id": 2,
+        "company_name": "Ubisoft",
+        "job_title": "Data Science Intern",
+        "date": "Singapore, Oct2022 - Present",
+        "job_desc": "Exploring to represent game data as a knowledge Graph.",
+        "image_path": "./images/ubisoft-logo.jpeg"
+    },
+    {
+        "job_id": 3,
+        "company_name": "Ubisoft",
+        "job_title": "Software Engineer (Machine learning) Intern",
+        "date": "Singapore, Jul2022 - Sep2022",
+        "job_desc": "\u2022 Developed a web application to extract game credits from videos.\n        \u2022 Processed image frames using openCV and extracted text using optical character recognition, easyOCR. \n        \u2022 Implemented k-means clustering and other techniques to map respective job titles with the names of people.\n        \u2022 Designied an interactive user-interface using ReactJS to upload videos and extract game credits as well as filter data based on search parameters. \n\n        \u2022 Frontend Framework \u2013 ReactJS, Backend Framework \u2013 Flask, Database \u2013 MongoDB.",
+        "image_path": "./images/ubisoft-logo.jpeg"
+    },
+    {
+        "job_id": 4,
+        "company_name": "A*Star",
+        "job_title": "Research Intern",
+        "date": "Singapore, May2022 - Jul2022",
+        "job_desc": "\u2022 Ascertained novel ways of pruning neural networks to make them more compact.\n        \u2022 Analyzed pruning rules like global pruning to achieve state-of-the-art performance.\n        \u2022 Conducted research experiments on CIFAR10 and ImageNet datasets to validate new pruning rules.\n        \u2022 Developed and analyzed changes made to existing algorithms to push state-of-the-art further for sparsity and accuracy achieved after pruning.\n        ",
+        "image_path": "./images/Astar-logo.jpeg"
+    }
+]
