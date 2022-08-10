@@ -182,15 +182,15 @@
 
 .navbar-parent{
   height: 100%;
-  position: absolute;
+  position: fixed;
   right: 5px;
   display: flex;
-  width : 150px;
+  width : 120px;
   justify-content: center;
   align-items: center;
   top:0px;
   z-index: 1000;
-  background-color: #00A6FF;
+  /* background-color: #00A6FF; */
   /* width: 150px; */
 }
 
@@ -1000,6 +1000,7 @@ img.bg {
 
 .btn {
   position: relative;
+  z-index: 99;
   display: inline-block;
   padding: 10px;
   /* background-color: rgb(53, 52, 52); */
