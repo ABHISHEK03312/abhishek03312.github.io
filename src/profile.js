@@ -7,6 +7,7 @@ import ProfilePictureCopy from "./images/profilepiccopy.jpeg";
 import { Link } from "react-router-dom";
 import LoadingIcons from 'react-loading-icons'
 import React,{useState,useEffect} from 'react';
+import MyPDF from './AbhishekVaidyanathanResume.pdf';
 
 const Profile= () => {
 
@@ -76,7 +77,7 @@ const Profile= () => {
                         </div> */}
                     </div>
                     <div className="resume-button-div">
-                        <a href="./AbhishekVaidyanathanResume.pdf" target="_blank" download style={{'text-decoration':'none'}}>
+                        <a href={MyPDF} download="AbhishekVaidyanthanResume.pdf">
                             <button className="resume">Download Resume</button>
                         </a>
                     </div>
