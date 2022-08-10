@@ -1,36 +1,60 @@
-{
-    "spam-filter": {
+[
+    {
+        "name": "abhishek03312.github.io",
+        "link": "https://github.com/ABHISHEK03312/abhishek03312.github.io",
+        "visibility": "Public",
+        "about": "This repository points to the code for my personal website. I have primarily used ReactJS to build my website along with CSS for the design and UI.",
+        "languages": [
+            "JavaScript",
+            "CSS",
+            "Jupyter Notebook",
+            "Python",
+            "HTML"
+        ]
+    },
+    {
         "name": "spam-filter",
         "link": "https://github.com/ABHISHEK03312/spam-filter",
         "visibility": "Public",
-        "about": "A spam filter to separate fake messages from real messages.",
+        "about": "Spam filter, used to filter spam text messages from the authentic text messages. Decision trees and random forest were used with apporpraite features engineered for the supervised classification task.",
         "languages": [
             "Jupyter Notebook"
         ]
     },
-    "Intelligent-Agents-Play-Rummy": {
+    {
+        "name": "Speech_Emotion_recognition",
+        "link": "https://github.com/ABHISHEK03312/Speech_Emotion_recognition",
+        "visibility": "Public",
+        "about": "A research project to test the use of speech emotion recognition on different audio files extracted from the user specified audio clip. The application detects different speakers as well as the emotions of a each speaker. ANNs and Siamese networks were used to achieve the tasks.",
+        "languages": [
+            "Jupyter Notebook",
+            "PureBasic",
+            "Python"
+        ]
+    },
+    {
         "name": "Intelligent-Agents-Play-Rummy",
         "link": "https://github.com/ABHISHEK03312/Intelligent-Agents-Play-Rummy",
         "visibility": "Public",
-        "about": "Experiment for our research paper under HW0228 Scientific Communication II",
+        "about": "A research experiement to study the effects of card counting in Indian Rummy. This was subnitted as a project as part of course requirements.",
         "languages": [
             "Python"
         ]
     },
-    "Databases": {
+    {
         "name": "Databases",
         "link": "https://github.com/ABHISHEK03312/Databases",
         "visibility": "Public",
-        "about": "A database to handle transactions for an online shopping platform. Coded in SQL server.",
+        "about": "A complete database platform to handle different types of actions and transactions for an online shopping platform. Primarily built using SQL server, this project accurately considers the use of Triggers and other operations for specific user actions.",
         "languages": [
             "TSQL"
         ]
     },
-    "Video-Game-Credit-Extraction": {
+    {
         "name": "Video-Game-Credit-Extraction",
         "link": "https://github.com/ABHISHEK03312/Video-Game-Credit-Extraction",
         "visibility": "Public",
-        "about": "A web application to extract the end credits from game credit videos. The user interface was built using ReactJS and the backend framework built using Flask along with mongoDB to store data.",
+        "about": "A web application to extract the end credits from game credit videos. Different algorithms such as OCR and functions from OpenCV were used to extract the content. The user interface was built using ReactJS and the backend framework built using Flask along with mongoDB to store data.",
         "languages": [
             "Jupyter Notebook",
             "JavaScript",
@@ -38,50 +62,46 @@
             "Other"
         ]
     },
-    "NLP-assignment2": {
+    {
         "name": "NLP-assignment2",
         "link": "https://github.com/ABHISHEK03312/NLP-assignment2",
         "visibility": "Public",
-        "about": "None",
+        "about": "Project Repository for the 2nd assignment as part of course requirements for CZ4045.",
         "languages": [
             "Jupyter Notebook"
         ]
     },
-    "ABHISHEK03312": {
-        "name": "ABHISHEK03312",
-        "link": "https://github.com/ABHISHEK03312/ABHISHEK03312",
+    {
+        "name": "NLP-Assignment1",
+        "link": "https://github.com/ABHISHEK03312/NLP-Assignment1",
         "visibility": "Public",
-        "about": "None",
-        "languages": []
+        "about": "Project Repository for the 1st assignment as part of course requirements for CZ4045.",
+        "languages": [
+            "Jupyter Notebook",
+            "Other"
+        ]
     },
-    "Abhishek-Vaidyanathan": {
-        "name": "Abhishek-Vaidyanathan",
-        "link": "https://github.com/ABHISHEK03312/Abhishek-Vaidyanathan",
-        "visibility": "Public",
-        "about": "None",
-        "languages": []
-    },
-    "Data-Analysis-with-Computer": {
+    {
         "name": "Data-Analysis-with-Computer",
         "link": "https://github.com/ABHISHEK03312/Data-Analysis-with-Computer",
         "visibility": "Public",
         "about": "Project aiming to analyse the expenditure trends of people based on their income as well factors such as marital status, education level etc,. This was done in order to aid the marketing strategy for a company dealing with online shopping.",
         "languages": []
     },
-    "AI": {
+    {
         "name": "AI",
         "link": "https://github.com/ABHISHEK03312/AI",
         "visibility": "Public",
-        "about": "None",
+        "about": "Code Repository for the course CZ3005. This project aims to explore operations in artifical intelligence applications. The code base is primarily in Prolog.",
         "languages": [
             "Prolog"
         ]
     },
-    "JobsUpply": {
+    {
         "name": "JobsUpply",
         "link": "https://github.com/ABHISHEK03312/JobsUpply",
         "visibility": "Public",
-        "about": "A web application to suggest jobs to students and fresh graduates based on their skills and their education field. The application also suggests courses for the users to help them learn new skills that may be required for jobs that they look for.",
+        "about": "A web application to suggest jobs to students and fresh graduates based on their skills and their education field. The application also suggests courses for the users to help them learn the necessary skills that may be required for a particular job.",
         "languages": [
             "JavaScript",
             "Python",
@@ -89,60 +109,50 @@
             "HTML"
         ]
     },
-    "FaceForensics": {
-        "name": "FaceForensics",
-        "link": "https://github.com/ABHISHEK03312/FaceForensics",
-        "visibility": "Public",
-        "about": "Github of the FaceForensics dataset",
-        "languages": [
-            "Python",
-            "Shell"
-        ]
-    },
-    "Course-Registration-System": {
+    {
         "name": "Course-Registration-System",
         "link": "https://github.com/ABHISHEK03312/Course-Registration-System",
         "visibility": "Public",
-        "about": "Console based application codes in Java. The application enables students to register for their courses as well as use features such as changing class timings and adding or dropping courses.",
+        "about": "A console based course registration system in Java. The applications mimics a real world system allowing students to add/drop courses and change class timings.",
         "languages": [
             "Java"
         ]
     },
-    "Genome-searching-Algorithms": {
+    {
         "name": "Genome-searching-Algorithms",
         "link": "https://github.com/ABHISHEK03312/Genome-searching-Algorithms",
         "visibility": "Public",
-        "about": "None",
+        "about": "The aim of this project is to propose an algorithm to find sub sequences in a genome sequence and compare efficiency of the proposed algorithms.",
         "languages": [
             "C++"
         ]
     },
-    "Graph-Algorithms": {
+    {
         "name": "Graph-Algorithms",
         "link": "https://github.com/ABHISHEK03312/Graph-Algorithms",
         "visibility": "Public",
-        "about": "None",
+        "about": "This project aims to find the closest hospital to every city given a real word road network. The entire road network is represented as a graph with each city and hospital represented as nodes and the edges representing the roads connecting them.",
         "languages": [
             "Python"
         ]
     },
-    "Music-Moods": {
+    {
         "name": "Music-Moods",
         "link": "https://github.com/ABHISHEK03312/Music-Moods",
         "visibility": "Public",
-        "about": "A music recommendation system to suggest the top 30 similar songs based on sentiment of the songs.",
+        "about": "A music recommendation system to suggest top 30 similar songs based on the sentiment of the songs. The system also consist of a simple application built using tkinter.",
         "languages": [
             "Jupyter Notebook",
             "Python"
         ]
     },
-    "Canteen-information-system": {
+    {
         "name": "Canteen-information-system",
         "link": "https://github.com/ABHISHEK03312/Canteen-information-system",
         "visibility": "Public",
-        "about": "An application to view the food menu for different stalls in NTU food canteens.",
+        "about": "A simple application built using tkinter to view the food menu of different stalls in NTU food canteens.",
         "languages": [
             "Python"
         ]
     }
-}
+]

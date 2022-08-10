@@ -1,7 +1,8 @@
 import React,{useState,useEffect} from 'react';
 import LoadingIcons from 'react-loading-icons'
 import ProjectCards from "./projectCards";
-import jsonData from "./new-scraped-projects.json";
+// import jsonData from "./new-scraped-projects.json";
+import jsonData from "./scraped-projects.json";
 import { ReactSearchAutocomplete } from 'react-search-autocomplete';
 
 const Projects = () =>{

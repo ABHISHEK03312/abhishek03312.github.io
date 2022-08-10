@@ -27,9 +27,9 @@ const Profile= () => {
     return (
         <div className="profile"> 
             <div className="profile-sub-content">
-                <div className="profile-pic">
+                {/* <div className="profile-pic">
                     <img src = {ProfilePictureCopy} alt="Abhishek" className="profile-img" />
-                </div>
+                </div> */}
                 <div className="profile-content">
                     <div className="profile-content-text">
                         <p className="profile-para-code-p">
@@ -39,9 +39,7 @@ const Profile= () => {
                             - I'm Abhishek Vaidyanathan
                         </p>
                         <p className="profile-para">
-                            I am a final year student majoring in Data science and Artificial Intelligence at Nanyang Technological University 
-                            with a keen interest in Data science and machine learning, I am passionate about developing and solving real world 
-                            problems. 
+                         A final year student studying at Nanyang Technological University. Passionate in Data science and I am also a football fanatic. I believe in giving it my best shot in eveything I do.
                         </p>
                         {/* <div>
                             <div className="contact-links">

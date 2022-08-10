@@ -54,16 +54,19 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  height: 75vh;
+  /* height: 100%; */
   /* padding-top: 67px;
   padding-bottom: 68px; */
-  width: 100%;
+  width: 95%;
+  background: url("./images/profile-bg-img.jpg") no-repeat center center fixed; 
 }
 
 .profile-sub-content{
   display: flex;
   flex-direction: row;
-  align-items: center;
+  width: 100%;
+  /* align-items: center; */
   /* padding: 40px; */
   /* box-shadow: 1px 1px 10px #000000, 0 2px 5px 0 rgba(0, 0, 0, 0.2); ; */
 }
@@ -95,7 +98,7 @@
   display: flex;
   flex-direction: column;
   align-items: left;
-  width: 60%;
+  width: 75%;
 }
 
 .profile-content-text{
@@ -153,7 +156,7 @@
 }
 
 .resume-button-div{
-  width: 30%;
+  width: 20%;
   padding-top:20px;
 }
 

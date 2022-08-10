@@ -141,15 +141,20 @@ const About=()=> {
                             </div>
                         </div>
                         <div className='Bibliography-text'>
+                            {/* <p className='about-text-content'>
+                                Majoring in Data science and AI.  
+                                I have developed a keen intertest in the applications of Data science in Finance
+                            </p> */}
                             <p className='about-text-content'>
-                                Hi! I am Abhishek, majoring in Data science and Artificial Intelligence at Nanyang Technological University. 
-                                With a keen interest in Data science and machine learning. 
-                            </p>
-                            <p className='about-text-content'>
-                                My passion is to innovate and solve real world problems. I am currently learning big data management tools such 
-                                as Kafka, Postgres and Kubernetes. 
-                                My long term interests are in the financial applications of Data science and AI and I hope to take courses such as time 
-                                series analysis and financial mathematics to better understand the concepts of forecasting and predictive analysis.
+                                Majoring in Data science and AI, I have developed a keen interest in forecasting and predictive analysis.  
+                                <br/>
+                                <br/>
+                                Following this passion, I am currently working on my final year project under Prof. Jagath Chandana Rajapakse.
+                                My research is on forecasting the demand of medical products using external covaraiates such as incorporating google search trends and other forms of unstructured data.
+                                <br/>
+                                My research also focusses on extending the above application for earthquake prediction. 
+                                <br/>
+                                
                             </p>
                         </div>
                     </div>
