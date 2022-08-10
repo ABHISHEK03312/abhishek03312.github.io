@@ -8,7 +8,7 @@ import { BsMap ,BsTelephone} from 'react-icons/bs';
 const Navbar = () => {
     return (
         <div className='navbar-parent'>
-            {/* <div className='navbar'> */}
+            <div className='navbar'>
                 {/* <div className="links"> */}
                     {/* <div class="sti_container" > */}
                         <NavLink to="/" target="_self" rel="noreferrer" className={({ isActive }) => (isActive ? "linkactive" : "link")}>
@@ -43,7 +43,7 @@ const Navbar = () => {
                         </NavLink>
                     </div>
                 {/* </div> */}
-            {/* </div> */}
+            </div>
         </div>
       );
 }
