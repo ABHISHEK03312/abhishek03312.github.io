@@ -2,7 +2,7 @@ import './App.css';
 import './css-styles.css'
 import Navbar from './navbar';
 import About from './about';
-import { BrowserRouter as Router, Route,Routes} from 'react-router-dom';
+import { BrowserRouter , Route,Routes} from 'react-router-dom';
 import Work from './workExperience';
 import Profile from './profile';
 import Projects from './projects';
@@ -11,7 +11,7 @@ function App() {
   return (
     <div className='mainApp'>
       <div className="App">
-        <Router basename={process.env.PUBLIC_URL}>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Routes>
               <Route path='/' element={<Profile/>}/>
               {/* <Route path='/'/> */}
@@ -20,7 +20,7 @@ function App() {
               <Route path='/about' element={<About/>} />
             </Routes>
             <Navbar />
-        </Router>
+        </BrowserRouter>
       </div>
     </div>
   );

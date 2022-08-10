@@ -12,10 +12,12 @@ const Navbar = () => {
                 <div className="links">
                     <div class="sti_container" >
                         <NavLink to="/" target="_self" rel="noreferrer" className={({ isActive }) => (isActive ? "linkactive" : "link")}>
-                            <button className="btn">
+                            {/* <button className="btn">
                                 <span class="btn-text">Home</span>
                                 <span class="btn-icon"><FaHome style={{ height: 35, width: 35, verticalAlign: 'middle', color:'rgb(255, 255, 255)'}}/></span>
-                                <BsMap style={{height: '12%', width: '10%', fill: 'rgb(255, 255, 255)','z-index':'1000'}}/>
+                            </button> */}
+                            <button className='btn-orange'>
+                                Code
                             </button>
                         </NavLink>
                     </div>
