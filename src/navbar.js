@@ -10,14 +10,14 @@ const Navbar = () => {
         <div className='navbar-parent'>
             <div className='navbar'>
                 {/* <div className="links"> */}
-                    {/* <div class="sti_container" > */}
+                    <div class="sti_container" >
                         <NavLink to="/" target="_self" rel="noreferrer" className={({ isActive }) => (isActive ? "linkactive" : "link")}>
                             <button className="btn">
                                 <span class="btn-text">Home</span>
                                 <span class="btn-icon"><FaHome style={{ height: 35, width: 35, verticalAlign: 'middle', color:'rgb(255, 255, 255)'}}/></span>
                             </button>
                         </NavLink>
-                    {/* </div> */}
+                    </div>
                     <div class="sti_container">
                         <NavLink to="/workexperience" target="_self" rel="noreferrer" className={({ isActive }) => (isActive ? "linkactive" : "link")}>
                             <button class="btn">
