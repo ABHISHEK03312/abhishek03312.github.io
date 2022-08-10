@@ -77,7 +77,7 @@ const Profile= () => {
                         </div> */}
                     </div>
                     <div className="resume-button-div">
-                        <a href={MyPDF} download="AbhishekVaidyanthanResume.pdf">
+                        <a href={MyPDF} download="AbhishekVaidyanthanResume.pdf" style={{'text-decoration':'none'}}>
                             <button className="resume">Download Resume</button>
                         </a>
                     </div>
