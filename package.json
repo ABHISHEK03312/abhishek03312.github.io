@@ -25,6 +25,7 @@
     "react-social-icons": "^5.6.1",
     "scrapedin": "^1.0.21",
     "styled-components": "^5.3.3",
+    "typewriter-effect": "^2.19.0",
     "vertical-timeline-component-for-react": "^1.0.7",
     "web-vitals": "^1.0.1"
   },
