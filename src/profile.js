@@ -40,7 +40,7 @@ const Profile= () => {
                             - I'm Abhishek Vaidyanathan
                         </p>
                         <p className="profile-para">
-                         A final year student studying at Nanyang Technological University. Passionate in Data science and I am also a football fanatic. I believe in giving it my best shot in eveything I do.
+                         A final year student studying at Nanyang Technological University. Passionate in Data science, I am also a football fanatic. I believe in giving it my best shot in eveything I do.
                         </p>
                         {/* <div>
                             <div className="contact-links">
