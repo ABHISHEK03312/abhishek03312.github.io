@@ -118,6 +118,8 @@
 }
 
 .profile-para-code-p{
+  display: flex;
+  flex-direction: row;
   font-family: monospace;
   width: 100%;
   color: rgb(0, 166, 255);

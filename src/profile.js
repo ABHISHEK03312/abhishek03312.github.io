@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 import LoadingIcons from 'react-loading-icons'
 import React,{useState,useEffect} from 'react';
 import MyPDF from './AbhishekVaidyanathanResume.pdf';
+import Typewriter from 'typewriter-effect';
 
 const Profile= () => {
 
@@ -37,7 +38,15 @@ const Profile= () => {
                             {/* <pre className="profile-para-code">
                                 >>I'm Abhishek Vaidyanathan valbopadmvadmvkdsmvsd
                             </pre> */}
-                            - I'm Abhishek Vaidyanathan
+                            {/* - I'm Abhishek Vaidyanathan */}
+                            -
+                            <Typewriter
+                            options={{
+                                strings: ["I'm Abhishek Vaidyanathan ", "I'm a Developer","I'm a Data scientist"],
+                                autoStart: true,
+                                loop: true,
+                            }}
+                        />
                         </p>
                         <p className="profile-para">
                          A final year student studying at Nanyang Technological University. Passionate in Data science, I am also a football fanatic. I believe in giving it my best shot in eveything I do.
