@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.beace41d.chunk.css",
-    "main.js": "/static/js/main.a83b7f82.chunk.js",
-    "main.js.map": "/static/js/main.a83b7f82.chunk.js.map",
+    "main.js": "/static/js/main.afaa7409.chunk.js",
+    "main.js.map": "/static/js/main.afaa7409.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.66ec9fc4.js",
     "runtime-main.js.map": "/static/js/runtime-main.66ec9fc4.js.map",
     "static/css/2.72c483b3.chunk.css": "/static/css/2.72c483b3.chunk.css",
@@ -14,7 +14,7 @@
     "static/css/2.72c483b3.chunk.css.map": "/static/css/2.72c483b3.chunk.css.map",
     "static/css/main.beace41d.chunk.css.map": "/static/css/main.beace41d.chunk.css.map",
     "static/js/2.886e8111.chunk.js.LICENSE.txt": "/static/js/2.886e8111.chunk.js.LICENSE.txt",
-    "static/media/AbhishekVaidyanathanResume.28cc05b3.pdf": "/static/media/AbhishekVaidyanathanResume.28cc05b3.pdf",
+    "static/media/AbhishekVaidyanathanResume.4f890c8b.pdf": "/static/media/AbhishekVaidyanathanResume.4f890c8b.pdf",
     "static/media/Astar-logo.5bb2a311.jpeg": "/static/media/Astar-logo.5bb2a311.jpeg",
     "static/media/css-styles.css": "/static/media/profile-bg-img.d4965b2e.jpg",
     "static/media/bg.1f184269.webp": "/static/media/bg.1f184269.webp",
@@ -29,6 +29,6 @@
     "static/css/2.72c483b3.chunk.css",
     "static/js/2.886e8111.chunk.js",
     "static/css/main.beace41d.chunk.css",
-    "static/js/main.a83b7f82.chunk.js"
+    "static/js/main.afaa7409.chunk.js"
   ]
 }
